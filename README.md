@@ -1,4 +1,4 @@
-# Feku
+# Feku [![Build Status](https://travis-ci.org/siddharthgoel88/feku.svg?branch=master)](https://travis-ci.org/siddharthgoel88/feku)
 
 ### Introduction
 Feku is simple java utility library which can provide you and exhausitve list of user-agents of following software components:-

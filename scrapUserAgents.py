@@ -78,10 +78,6 @@ def getAllItemsInCategory(category):
 			print nextItem.getText()
 			itemname = camelCase(nextItem.getText())
 			itemfilename = categorydir + "/" + itemname + ".java"
-			if os.path.isfile(itemfilename):
-				print "Seems " + itemfilename + " is already downloaded. Skipping it."
-				nextItem = nextItem.find_next_sibling('a')
-				continue
 			generatedFile, uaGetter = generateJavaFile(url, itemname)
 			allUaGetters = allUaGetters + uaGetter
 			print generatedFile

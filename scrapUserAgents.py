@@ -10,6 +10,7 @@ from retry import retry
 
 rootdir = "./src/main/java/io/github/siddharthgoel88/useragents/impl/"
 
+#Change a name to camel case
 def camelCase(name):
 	name = name.title().replace("_", "")
 	#Hardcoding a corner case of name
@@ -17,6 +18,7 @@ def camelCase(name):
 		name = "Crawler008"
 	return re.sub(r'\W+', '', name)
 
+#Extract user-agent string for the url
 def extractUserAgentStrings(url):
 	filePointer = urlopen_with_retry(url)
 	subPage = filePointer.read()
@@ -26,11 +28,12 @@ def extractUserAgentStrings(url):
 		return ''
 	result = ''
 	for obj in userAgentObjs[:-1]:
-		result = result + '			"' + obj.getText().strip().replace("\\", "\\\\") + '",\n'
+		result = result + '\t\t\t"' + obj.getText().strip().replace("\\", "\\\\") + '",\n'
 	else:
-		result = result + '			"' + userAgentObjs[-1].getText().strip().replace("\\", "\\\\") + '"'
+		result = result + '\t\t\t"' + userAgentObjs[-1].getText().strip().replace("\\", "\\\\") + '"'
 	return result
 
+#Java code generation logic
 def generateJavaFile(url, clazz):
 	code =	"""package io.github.siddharthgoel88.useragents.impl;
 
@@ -57,12 +60,12 @@ public class """ + clazz  + """ extends UserAgent {
 """
 	return code, uaGetter
 
+#Iterate over all the items under a category
 def getAllItemsInCategory(category):
 	global rootdir
 	nextItem = category.find_next_sibling('a')
 	if (nextItem.get('class')[0] == 'unterMenuTitel'):
 		return
-	#categorydir = rootdir + "/" + category.getText().strip()
 	categorydir = rootdir
 	opendir(categorydir)
 	print nextItem.getText()
@@ -91,15 +94,25 @@ def getAllItemsInCategory(category):
 		sleep(1)
 	return allUaGetters
 
+#Convenience function to create a directory
 def opendir(directory):
 	if not os.path.exists(directory):
 		print "Creating a new directory: " + directory
 		os.makedirs(directory)
 
-@retry(Exception , tries=20, delay=1, backoff=1.1)
+
+#Retrying to download the webpage with 5 seconds of timeout
+@retry(Exception , tries=20, delay=1, backoff=1)
 def urlopen_with_retry(url):
     return urllib2.urlopen(url, timeout=5)
 
+def xstr(s):
+	if s == 'None':
+		return ''
+    	return str(s)
+
+#Creates a Factory class to return all the browsers, crawlers, etc
+#to get their user-agent.
 def createMotherOfAllUAFile(getters):
 	filename = rootdir + "/Feku.java"
 	f = open(filename, 'w')
@@ -114,7 +127,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  *
  */
 public class Feku {
-""" + getters + """
+""" + xstr(getters) + """
 }"""
 	f.write(content)
 	f.close()
@@ -128,12 +141,10 @@ def main():
 	opendir(rootdir)
 	allCategoryUaGetters = ''
 	for category in categories:
-		print "This is the category ====> " + category.getText() + " <===="
+		print "Category Name : " + category.getText()
 		categoryUaGetters = str(getAllItemsInCategory(category))
 		print categoryUaGetters
-		allCategoryUaGetters = allCategoryUaGetters + str(categoryUaGetters)
-		print allCategoryUaGetters
-		print "*******************"
+		allCategoryUaGetters = allCategoryUaGetters + categoryUaGetters
 	createMotherOfAllUAFile(allCategoryUaGetters)
 
 if __name__ == '__main__':

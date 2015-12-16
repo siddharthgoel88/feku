@@ -55,7 +55,7 @@ public abstract class UserAgent {
 	 * A convenience API for getting user agent string. 
 	 * Currently it returns the latest user agent.
 	 * 
-	 * @return
+	 * @return returns the latest user-agent
 	 */
 	public String getUserAgent() {
 		return getLatestUserAgent();

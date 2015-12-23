@@ -1,9 +1,10 @@
-language: python
-python:
-  - "2.7"
+language: java
 
-# command to install dependencies
-install: "pip install -r requirements.txt"
+jdk:
+  - oraclejdk7
+  - oraclejdk8
+  - openjdk6
+  - openjdk7
 
-# command to run tests
-script: python scrapUserAgents.py
+#Check compilation and packaging
+mvn compile package

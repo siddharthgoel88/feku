@@ -40,8 +40,7 @@ def generateJavaFile(url, clazz):
 import io.github.siddharthgoel88.useragents.UserAgent;
 
 /**
- * This is an auto-generated class. Please do
- * not modify the class manually.
+ * UserAgents from latest to oldest for """ + clazz + """
  */
 public class """ + clazz  + """ extends UserAgent {	
 	
@@ -118,8 +117,7 @@ package io.github.siddharthgoel88.useragents.impl;
 import io.github.siddharthgoel88.useragents.UserAgent;
 
 /**
- * This is an auto-generated class. Please do
- * not modify the class manually.
+ * Factory class to get any UserAgent.
  *
  */
 public class Feku {
@@ -128,7 +126,17 @@ public class Feku {
 	f.write(content)
 	f.close()
 
+def prepareDirectory():
+	path = "./src/main/java/io/github/siddharthgoel88/useragents/impl/"
+	filelist = [ f for f in os.listdir(path) if f.endswith(".java") ]
+	print "Deleting " + str(len(f)) + " generated Java files at " + path 
+	for f in filelist:
+		print "Deleting " + path + f
+		os.remove(path + f)
+	print "Deletion complete"
+
 def main():
+	prepareDirectory()
 	mainUrl = 'http://www.useragentstring.com/pages/useragentstring.php'
 	filePointer = urlopen_with_retry(mainUrl)
 	page = filePointer.read()

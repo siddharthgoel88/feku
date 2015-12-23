@@ -3,8 +3,7 @@ package io.github.siddharthgoel88.useragents.impl;
 import io.github.siddharthgoel88.useragents.UserAgent;
 
 /**
- * This is an auto-generated class. Please do
- * not modify the class manually.
+ * UserAgents from latest to oldest for Snappy
  */
 public class Snappy extends UserAgent {	
 	

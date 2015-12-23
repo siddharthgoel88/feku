@@ -3,14 +3,15 @@ package io.github.siddharthgoel88.useragents.impl;
 import io.github.siddharthgoel88.useragents.UserAgent;
 
 /**
- * This is an auto-generated class. Please do
- * not modify the class manually.
+ * UserAgents from latest to oldest for Blitzbot
  */
-public class BLITZBOT extends UserAgent {	
+public class Blitzbot extends UserAgent {	
 	
 	public String[] getUserAgentStrings() {
 		String [] userAgentStrings = {
-			"Mozilla/4.0 (compatible; B-l-i-t-z-B-O-T)"
+			"Mozilla/4.0 (compatible; BlitzBot)",
+			"BlitzBOT@tricus.net (Mozilla compatible)",
+			"BlitzBOT@tricus.com (Mozilla compatible)"
 		};
 		return userAgentStrings;
 	}

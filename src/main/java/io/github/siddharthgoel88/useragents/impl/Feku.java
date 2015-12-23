@@ -4,12 +4,10 @@ package io.github.siddharthgoel88.useragents.impl;
 import io.github.siddharthgoel88.useragents.UserAgent;
 
 /**
- * This is an auto-generated class. Please do
- * not modify the class manually.
- *
+ * Factory class to get any UserAgent.
  */
 public class Feku {
-	
+
 	public static UserAgent getCrawler008() {
 		return new Crawler008();
 	}
@@ -40,11 +38,6 @@ public class Feku {
 	}
 
 
-	public static UserAgent getBLITZBOT() {
-		return new BLITZBOT();
-	}
-
-
 	public static UserAgent getBaiduspider() {
 		return new Baiduspider();
 	}
@@ -72,6 +65,11 @@ public class Feku {
 
 	public static UserAgent getBingbot() {
 		return new Bingbot();
+	}
+
+
+	public static UserAgent getBlitzbot() {
+		return new Blitzbot();
 	}
 
 
@@ -527,11 +525,6 @@ public class Feku {
 
 	public static UserAgent getPsbot() {
 		return new Psbot();
-	}
-
-
-	public static UserAgent getPycurl() {
-		return new Pycurl();
 	}
 
 
@@ -1822,6 +1815,11 @@ public class Feku {
 
 	public static UserAgent getPxyscand() {
 		return new Pxyscand();
+	}
+
+
+	public static UserAgent getPycurl() {
+		return new Pycurl();
 	}
 
 

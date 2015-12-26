@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Converacrawler extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"ConveraCrawler/0.9e (+http://ews.converasearch.com/crawl.htm)",
 			"ConveraCrawler/0.9d (+http://www.authoritativeweb.com/crawl)",

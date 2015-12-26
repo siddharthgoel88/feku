@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Lobo extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/4.0 (compatible; MSIE 6.0; Windows XP 5.1) Lobo/0.98.4",
 			"Mozilla/4.0 (compatible; MSIE 6.0; Linux 2.6.26-1-amd64) Lobo/0.98.3",

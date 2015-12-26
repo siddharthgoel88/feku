@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class WindowsMediaPlayer extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Windows-Media-Player/11.0.5721.5145",
 			"Windows-Media-Player/10.00.00.xxxx",

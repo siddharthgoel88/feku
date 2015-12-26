@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class NitroPdf extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Nitro PDF Download"
 		};

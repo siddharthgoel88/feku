@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Cyberdog extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Cyberdog/2.0 (Macintosh; PPC)",
 			"Cyberdog/2.0 (Macintosh; 68k)"

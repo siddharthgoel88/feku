@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Turnitinbot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"TurnitinBot/2.1 (http://www.turnitin.com/robot/crawlerinfo.html)",
 			"TurnitinBot/2.0 http://www.turnitin.com/robot/crawlerinfo.html",

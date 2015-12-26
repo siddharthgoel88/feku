@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class EmeraldshieldComWebbot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"EmeraldShield.com WebBot (http://www.emeraldshield.com/webbot.aspx)"
 		};

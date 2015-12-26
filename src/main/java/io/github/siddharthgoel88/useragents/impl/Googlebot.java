@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Googlebot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
 			"Googlebot/2.1 (+http://www.googlebot.com/bot.html)",

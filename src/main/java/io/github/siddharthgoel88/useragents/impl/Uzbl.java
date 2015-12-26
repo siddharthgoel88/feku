@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Uzbl extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Uzbl (Webkit 1.3) (Linux i686 [i686])",
 			"Uzbl (Webkit 1.2) (Linux i686 [i686])",

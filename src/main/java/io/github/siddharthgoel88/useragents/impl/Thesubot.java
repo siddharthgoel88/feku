@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Thesubot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"TheSuBot/0.2 (www.thesubot.de)",
 			"TheSuBot/0.1 (www.thesubot.de)"

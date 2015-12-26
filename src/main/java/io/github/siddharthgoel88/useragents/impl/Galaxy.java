@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Galaxy extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Galaxy/1.0 [en] (Mac OS X 10.5.6; U; en)",
 			"Galaxy/1.0 [en] (Mac OS X 10.5.6)"

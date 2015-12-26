@@ -12,7 +12,7 @@ import java.util.Random;
 public abstract class UserAgent {
 	
 	public UserAgent() {
-		userAgentStrings = getUserAgentStrings();
+		userAgentStrings = getAllUserAgentStrings();
 		numberOfUserAgentStrings = userAgentStrings.length;
 		generator = new Random();
 	}
@@ -27,7 +27,7 @@ public abstract class UserAgent {
 	 * 
 	 * @return list of user agent strings
 	 */
-	protected abstract String[] getUserAgentStrings();
+	protected abstract String[] getAllUserAgentStrings();
 	
 	/**
 	 * Returns the user agent which was latest when 

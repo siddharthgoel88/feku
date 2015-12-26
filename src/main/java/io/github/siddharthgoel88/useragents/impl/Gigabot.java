@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Gigabot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Gigabot/3.0 (http://www.gigablast.com/spider.html)",
 			"Gigabot/2.0/gigablast.com/spider.html",

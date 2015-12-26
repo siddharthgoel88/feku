@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class BoithoComDc extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"boitho.com-dc/0.85 ( http://www.boitho.com/dcbot.html )",
 			"boitho.com-dc/0.83 ( http://www.boitho.com/dcbot.html )",

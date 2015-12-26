@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Dataparksearch extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"DataparkSearch/4.37-23012006 ( http://www.dataparksearch.org/)",
 			"DataparkSearch/4.36 ( http://www.dataparksearch.org/)",

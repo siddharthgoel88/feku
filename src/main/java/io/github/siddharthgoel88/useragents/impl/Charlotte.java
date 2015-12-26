@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Charlotte extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/5.0 (compatible; Charlotte/1.1; http://www.searchme.com/support/)",
 			"Mozilla/5.0 (compatible; Charlotte/1.0t; http://www.searchme.com/support/)",

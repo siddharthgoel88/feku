@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Holmes extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"holmes/3.9 (someurl.co.cc)",
 			"holmes/3.12.4 (http://morfeo.centrum.cz/bot)",

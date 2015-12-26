@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class ReciprocalLinkSystemPro extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"InfoWizards Reciprocal Link System PRO - (http://www.infowizards.com)"
 		};

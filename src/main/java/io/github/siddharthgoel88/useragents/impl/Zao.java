@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Zao extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Zao/0.1 (http://www.kototoi.org/zao/)",
 			"Zao/0.1 (http://www.kototoi.org/zao/)"

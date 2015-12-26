@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Amigavoyager extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"AmigaVoyager/3.2 (AmigaOS/MC680x0)",
 			"AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS; SV1)",

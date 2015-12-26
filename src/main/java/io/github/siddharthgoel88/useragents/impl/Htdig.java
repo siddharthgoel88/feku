@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Htdig extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"htdig/3.1.6 (unconfigured@htdig.searchengine.maintainer)",
 			"htdig/3.1.6 (mathieu.peltier@inrialpes.fr)",

@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Scrubby extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Scrubby/2.2 (http://www.scrubtheweb.com/)",
 			"Mozilla/5.0 (compatible; Scrubby/2.2; +http://www.scrubtheweb.com/)",

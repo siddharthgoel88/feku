@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class OmniexplorerBot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"OmniExplorer_Bot/6.70 (+http://www.omni-explorer.com) WorldIndexer",
 			"OmniExplorer_Bot/6.65a (+http://www.omni-explorer.com) WorldIndexer",

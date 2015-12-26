@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class EnvolkItsSpider extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"envolk[ITS]spider/1.6 (+http://www.envolk.com/envolkspider.html)",
 			"envolk[ITS]spider/1.6 ( http://www.envolk.com/envolkspider.html)"

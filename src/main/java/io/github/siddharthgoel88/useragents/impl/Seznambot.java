@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Seznambot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"SeznamBot/2.0 (+http://fulltext.seznam.cz/)",
 			"SeznamBot/2.0 (+http://fulltext.sblog.cz/robot/)"

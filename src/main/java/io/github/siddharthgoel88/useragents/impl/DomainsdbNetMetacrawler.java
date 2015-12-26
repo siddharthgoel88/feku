@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class DomainsdbNetMetacrawler extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"DomainsDB.net MetaCrawler v.0.9.7c (http://domainsdb.net/)"
 		};

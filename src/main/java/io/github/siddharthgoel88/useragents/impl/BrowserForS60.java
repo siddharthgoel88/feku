@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class BrowserForS60 extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"SamsungI8910/SymbianOS/9.1 Series60/3.0",
 			"NokiaN97i/SymbianOS/9.1 Series60/3.0",

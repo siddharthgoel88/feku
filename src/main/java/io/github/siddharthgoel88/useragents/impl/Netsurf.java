@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Netsurf extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"NetSurf/2.0 (RISC OS; armv5l)",
 			"NetSurf/2.0 (RISC OS; armv3l)",

@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class IaArchiver extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"ia_archiver/8.9 (Windows NT 3.1; en-US;)",
 			"ia_archiver/8.9 (Windows 3.9; en-US;)",

@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class CseHtmlValidator extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"CSE HTML Validator Lite Online (http://online.htmlvalidator.com/php/onlinevallite.php)"
 		};

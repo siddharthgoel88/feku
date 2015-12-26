@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class AppengineGoogle extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"AppEngine-Google; (+http://code.google.com/appengine; appid: webetrex)",
 			"AppEngine-Google; (+http://code.google.com/appengine; appid: unblock4myspace)",

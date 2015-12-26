@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Omgilibot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"omgilibot/0.4 +http://omgili.com",
 			"omgilibot/0.3 +http://www.omgili.com/Crawler.html",

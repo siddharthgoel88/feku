@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class W3CCssValidatorJfouffa extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0"
 		};

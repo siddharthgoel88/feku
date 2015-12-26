@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Vortex extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Vortex/2.2 (+http://marty.anstey.ca/robots/vortex/)",
 			"Vortex/2.2 ( http://marty.anstey.ca/robots/vortex/)",

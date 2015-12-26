@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Geniebot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"genieBot (http://64.5.245.11/faq/faq.html)",
 			"genieBot ((http://64.5.245.11/faq/faq.html))"

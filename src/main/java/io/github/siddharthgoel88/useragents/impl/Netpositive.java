@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Netpositive extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/3.0 (compatible; NetPositive/2.2.2; BeOS)",
 			"Mozilla/3.0 (compatible; NetPositive/2.2)",

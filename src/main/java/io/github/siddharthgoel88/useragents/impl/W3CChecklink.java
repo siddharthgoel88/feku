@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class W3CChecklink extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"W3C-checklink/4.5 [4.160] libwww-perl/5.823",
 			"W3C-checklink/4.5 [4.154] libwww-perl/5.823",

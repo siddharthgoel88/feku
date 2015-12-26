@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class CerberianDrtrs extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/4.0 (compatible; Cerberian Drtrs Version-3.2-Build-1)",
 			"Mozilla/4.0 (compatible; Cerberian Drtrs Version-3.2-Build-0)"

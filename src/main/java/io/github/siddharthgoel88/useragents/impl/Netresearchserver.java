@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Netresearchserver extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"NetResearchServer/4.0(loopimprovements.com/robot.html)",
 			"NetResearchServer/3.5(loopimprovements.com/robot.html)",

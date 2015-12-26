@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class NusearchSpider extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Nusearch Spider (www.nusearch.com)",
 			"nuSearch Spider (compatible; MSIE 4.01; Windows NT)"

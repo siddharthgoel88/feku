@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Ibrowse extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS4.0)",
 			"IBrowse/2.4demo (AmigaOS 3.9; 68K)",

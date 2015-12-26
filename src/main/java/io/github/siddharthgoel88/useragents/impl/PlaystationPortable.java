@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class PlaystationPortable extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"PSP (PlayStation Portable); 2.00",
 			"Mozilla/4.0 (PSP (PlayStation Portable); 2.00)"

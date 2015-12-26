@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Sundance extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Sundance/0.9x(Compatible; Windows; U; en-US;)Version/0.9x",
 			"Mozilla/5.0 (Windows; U; Windows NT 5.1; ) Sundance/0.9x",

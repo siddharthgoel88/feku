@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Pompos extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Pompos/1.3 http://dir.com/pompos.html",
 			"Pompos/1.2 http://pompos.iliad.fr",

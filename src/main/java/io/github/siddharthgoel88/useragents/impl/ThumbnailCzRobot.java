@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class ThumbnailCzRobot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Thumbnail.CZ robot 1.1 (http://thumbnail.cz/why-no-robots-txt.html)"
 		};

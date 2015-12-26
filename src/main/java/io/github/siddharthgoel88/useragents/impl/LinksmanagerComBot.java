@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class LinksmanagerComBot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/5.0 (compatible; LinksManager.com_bot  http://linksmanager.com/linkchecker.html)",
 			"Mozilla/5.0 (compatible; LinksManager.com_bot +http://linksmanager.com/linkchecker.html)"

@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Sitebar extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"SiteBar/3.3.8 (Bookmark Server; http://sitebar.org/)",
 			"SiteBar/3.3.5 (Bookmark Server; http://sitebar.org/)"

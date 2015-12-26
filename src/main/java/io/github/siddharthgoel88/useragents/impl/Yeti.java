@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Yeti extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)",
 			"Yeti/1.0 (+http://help.naver.com/robots/)"

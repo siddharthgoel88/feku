@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class NcsaMosaic extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"NCSA Mosaic/3.0 (Windows 95)",
 			"NCSA_Mosaic/2.7b4 (X11;AIX 1 000180663000)",

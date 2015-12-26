@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Irlbot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"IRLbot/3.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler/)",
 			"IRLbot/3.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler)",

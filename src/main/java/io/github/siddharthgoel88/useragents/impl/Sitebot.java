@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Sitebot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Mozilla/5.0 (compatible; SiteBot/0.1; +http://www.sitebot.org/robot/)",
 			"Mozilla/5.0 (compatible; SiteBot/0.1;  http://www.sitebot.org/robot/)"

@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Seekbot extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Seekbot/1.0 (http://www.seekbot.net/bot.html) RobotsTxtFetcher/1.2",
 			"Seekbot/1.0 (http://www.seekbot.net/bot.html) HTTPFetcher/2.1",

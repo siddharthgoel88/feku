@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class AccoonaAiAgent extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Accoona-AI-Agent/1.1.2 (aicrawler at accoonabot dot com)",
 			"Accoona-AI-Agent/1.1.2",

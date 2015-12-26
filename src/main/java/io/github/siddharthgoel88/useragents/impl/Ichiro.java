@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Ichiro extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"ichiro/4.0 (http://help.goo.ne.jp/door/crawler.html)",
 			"ichiro/3.0 (http://help.goo.ne.jp/door/crawler.html)",

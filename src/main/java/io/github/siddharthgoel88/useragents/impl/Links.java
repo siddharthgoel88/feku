@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Links extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"Links (6.9; Unix 6.9-astral sparc; 80x25)",
 			"Links (2.7; Linux 3.7.9-2-ARCH x86_64; GNU C 4.7.1; text)",

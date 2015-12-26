@@ -7,7 +7,7 @@ import io.github.siddharthgoel88.useragents.UserAgent;
  */
 public class Findlinks extends UserAgent {	
 	
-	public String[] getUserAgentStrings() {
+	public String[] getAllUserAgentStrings() {
 		String [] userAgentStrings = {
 			"findlinks/2.0.1 (+http://wortschatz.uni-leipzig.de/findlinks/)",
 			"findlinks/1.1.6-beta6 (+http://wortschatz.uni-leipzig.de/findlinks/)",

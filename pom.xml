@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.siddharthgoel88</groupId>
   <artifactId>feku</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>feku</name>
   <description>Java utility to get User Agents from an exhaustive 

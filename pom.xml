@@ -3,19 +3,33 @@
   <groupId>io.github.siddharthgoel88</groupId>
   <artifactId>feku</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
   <name>feku</name>
-  <description>Java utility to get user-agents for web requests</description>
-  
+  <description>Java utility to get User Agents from an exhaustive 
+  list of browsers, crawlers and many other softwares.</description>
+  <licenses>
+  	<license>
+    	<name>MIT License</name>
+    	<url>http://www.opensource.org/licenses/mit-license.php</url>
+   	</license>
+  </licenses>
+	<scm>
+	  <connection>scm:git:git@github.com:siddharthgoel88/feku.git</connection>
+	  <developerConnection>scm:git:git@github.com:siddharthgoel88/feku.git</developerConnection>
+	  <url>git@github.com:siddharthgoel88/feku.git</url>
+	</scm>
+
   <build>
   	<plugins>
   		<plugin>
 		  <groupId>org.apache.maven.plugins</groupId>
 		  <artifactId>maven-source-plugin</artifactId>
+		  <version>2.2.1</version>
 		  <executions>
 		    <execution>
 		      <id>attach-sources</id>
 		      <goals>
-			<goal>jar</goal>
+		      	<goal>jar</goal>
 		      </goals>
 		    </execution>
 		  </executions>
@@ -23,6 +37,7 @@
 		<plugin>
 		  <groupId>org.apache.maven.plugins</groupId>
 		  <artifactId>maven-javadoc-plugin</artifactId>
+		  <version>2.9.1</version>
 		  <executions>
 		    <execution>
 		      <id>attach-javadocs</id>
@@ -32,7 +47,28 @@
 		    </execution>
 		  </executions>
 		</plugin>
+		<plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-gpg-plugin</artifactId>
+	        <version>1.6</version>
+	        <executions>
+	          <execution>
+	            <id>sign-artifacts</id>
+	            <phase>verify</phase>
+	            <goals>
+	              <goal>sign</goal>
+	            </goals>
+	          </execution>
+	        </executions>
+      </plugin>
 	</plugins>
   </build>
-
+  <developers>
+    <developer>
+        <name>Siddharth Goel</name>
+        <email>siddharth98391@gmail.com</email>
+        <url>http://sidd.io</url>
+        <timezone>+8</timezone>
+    </developer>
+  </developers>
 </project>

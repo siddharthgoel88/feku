@@ -8,3 +8,4 @@ jdk:
 
 #Check compilation and packaging
 script: mvn compile
+install: true

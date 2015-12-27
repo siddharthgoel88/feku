@@ -28,7 +28,7 @@ Feku.getWget().getAllUserAgentStrings();
 ```
 
 ### Contribution
-One can follow the current style of coding in the repository and send new user agents for existing components or add new components altogether. For suggestion of adding some new API or change of design please start a discussion thread in [issues](https://github.com/siddharthgoel88/feku/issues).
+One can follow the current style of coding in the repository and send pull requests for adding new user agents for existing components or adding new components altogether. For suggestions of adding some new API or change of design please start a discussion thread in [issues](https://github.com/siddharthgoel88/feku/issues).
 
 ### License
 MIT

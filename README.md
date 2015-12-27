@@ -1,7 +1,7 @@
 # Feku [![Build Status](https://travis-ci.org/siddharthgoel88/feku.svg?branch=master)](https://travis-ci.org/siddharthgoel88/feku)
 
 ### Introduction
-Feku is simple java utility library which can provide you and exhausitve list of user-agents of following software components:-
+Feku is simple and tiny java utility library which can provide you an exhausitve list of user-agents of following software components:-
   - Browsers (Desktop, Mobile & offline)
   - Cloud platforms
   - Consoles
@@ -14,13 +14,21 @@ Feku is simple java utility library which can provide you and exhausitve list of
   - Validators
   - Others
 
-The data of useragents is scraped from http://www.useragentstring.com/ .
+The initial data of useragents is taken from http://www.useragentstring.com/ .
 
 ### How to use it
-<Need to add info here.>
+This one is going to be easy peasy. Examples :-
+```java
+//Returns a random user agent string of Chrome
+Feku.getChrome().getRandomUserAgent();
+//Returns the latest user agent string of Firefox
+Feku.getFirefox().getLatestUserAgent();
+//Returns an array of all useragent strings of wget
+Feku.getWget().getAllUserAgentStrings();
+```
 
 ### Contribution
-<Need to add info here.>
+One can follow the current style of coding in the repository and send new user agents for existing components or add new components altogether. For suggestion of adding some new API or change of design please start a discussion thread in [issues](https://github.com/siddharthgoel88/feku/issues).
 
 ### License
 MIT

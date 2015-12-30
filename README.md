@@ -16,6 +16,15 @@ Feku is simple and tiny java utility library which can provide you an exhausitve
 
 The initial data of useragents is taken from http://www.useragentstring.com/ .
 
+### Maven co-ordinates
+```
+<dependency>
+  <groupId>io.github.siddharthgoel88</groupId>
+  <artifactId>feku</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
 ### How to use it
 This one is going to be easy peasy. Examples :-
 ```java

@@ -1,4 +1,4 @@
-# Feku [![Build Status](https://travis-ci.org/siddharthgoel88/feku.svg?branch=master)](https://travis-ci.org/siddharthgoel88/feku)
+# Feku [![Build Status](https://travis-ci.org/siddharthgoel88/feku.svg?branch=master)](https://travis-ci.org/siddharthgoel88/feku) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.siddharthgoel88/feku/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.siddharthgoel88/feku)
 
 ### Introduction
 Feku is simple and tiny java utility library which can provide you an exhausitve list of user-agents of following software components:-
